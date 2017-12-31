@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_asmaul_husna"
+            android:icon="@drawable/ic_play_arrow"
+            android:title="Asma'ul Husna" />
+        <item
+            android:id="@+id/nav_shalawat_nabi"
+            android:icon="@drawable/ic_play_arrow"
+            android:title="Shalawat Nabi" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_play_arrow"
+            android:title="Team" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_play_arrow"
+            android:title="Tentang" />
+    </group>
+
+</menu>

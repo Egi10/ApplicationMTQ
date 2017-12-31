@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.egi_fcb.applicationmtq.Package_Hijaiyah_Perkenalan.Activity_Hijaiyah_Jelas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60sp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_menu_camera"
+                        android:id="@+id/image_huruf"
+                        android:layout_marginTop="70sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/relativeLayout">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20sp"
+                            android:text="Before Undressing"
+                            android:gravity="center"
+                            android:textColor="@color/Accent"
+                            android:textStyle="bold"
+                            android:textSize="25sp"
+                            android:id="@+id/textViewjudul"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="350sp"
+                            android:layout_marginBottom="20sp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            app:cardCornerRadius="15sp"
+                            app:cardElevation="5sp"
+                            android:paddingTop="10sp"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:id="@+id/cardView">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Before Undressing"
+                                android:gravity="center"
+                                android:textColor="@color/Accent"
+                                android:textDirection="anyRtl"
+                                android:textSize="30sp"
+                                android:id="@+id/textViewayat"
+                                android:layout_marginLeft="20sp"
+                                android:layout_marginRight="20sp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"/>
+                        </android.support.v7.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/textViewarti"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingBottom="20sp"
+                            android:paddingTop="20sp"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginRight="20sp"
+                            android:text="Before Undressing"
+                            android:textColor="@color/Accent"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/cardView"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <it.sephiroth.android.library.bottomnavigation.BottomNavigation
+            android:id="@+id/BottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            app:bbn_entries="@menu/menu_buttom_navigation_costum"
+            app:layout_behavior="@string/bbn_phone_view_behavior"/>
+    </RelativeLayout>
+</RelativeLayout>

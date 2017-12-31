@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.egi_fcb.applicationmtq.Package_Kuis.Activity_Kuis">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Dengarkan dan Pilih Jawaban Yang Benar"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:textColor="#2c3e50"
+    android:layout_marginTop="10sp"
+    android:src="@drawable/common_ic_googleplayservices"/>
+
+    <ImageButton
+        android:id="@+id/button_suara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_volume_up_white_24px"
+        android:background="@drawable/round_shape"
+        android:textColor="@color/AccentPutih"
+        android:layout_gravity="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textSize="50dp"
+                android:id="@+id/btn_pilihan1"
+                android:textColor="#2c3e50"
+                android:layout_weight="1"
+                android:src="@drawable/common_ic_googleplayservices"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B"
+                android:textSize="50dp"
+                android:id="@+id/btn_pilihan2"
+                android:src="@drawable/common_ic_googleplayservices"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textSize="50dp"
+            android:id="@+id/btn_pilihan3"
+            android:textColor="#2c3e50"
+            android:layout_weight="1"
+            android:src="@drawable/common_ic_googleplayservices"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B"
+            android:textSize="50dp"
+            android:id="@+id/btn_pilihan4"
+            android:src="@drawable/common_ic_googleplayservices"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_marginTop="0sp"
+        android:text="Jawaban Anda Masih Salah"
+        android:textColor="#2c3e50"
+        android:id="@+id/tv_keterangan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/AccentPutih"
+        android:id="@+id/hitung_salah"/>
+</LinearLayout>
