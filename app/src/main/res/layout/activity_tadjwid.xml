@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.egi_fcb.applicationmtq.Package_Tadjwid.Activity_Tadjwid_Iqlab">
+    tools:context="com.example.egi_fcb.applicationmtq.activity.tadjwid.Activity_Tadjwid_Iqlab">
 
     <RelativeLayout
         android:layout_width="match_parent"

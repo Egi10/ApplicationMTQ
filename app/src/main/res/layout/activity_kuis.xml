@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.example.egi_fcb.applicationmtq.Package_Kuis.Activity_Kuis">
+    tools:context="com.example.egi_fcb.applicationmtq.activity.campur.Activity_Kuis">
 
     <TextView
     android:layout_width="match_parent"

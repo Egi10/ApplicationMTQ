@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:background="#ecf0f1"
     android:layout_height="wrap_content"
-    tools:context="com.example.egi_fcb.applicationmtq.Package_Hijaiyah_Perkenalan.Activity_Hijaiyah_Jelas">
+    tools:context="com.example.egi_fcb.applicationmtq.activity.hijaiyah.Activity_Hijaiyah_Jelas">
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

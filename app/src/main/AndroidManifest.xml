@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Package_Halaman_Utama.Activity_Splash_Screen"
+            android:name=".activity.campur.Activity_Splash_Screen"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -27,312 +27,312 @@
             android:theme="@android:style/Theme.Translucent" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.campur.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
-        <activity android:name=".Package_Hijaiyah.Fragment_Hijaiyah"/>
+        <activity android:name=".fragment.Fragment_Hijaiyah"/>
 
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Ketika_Bangun_Tidur">
+        <activity android:name=".activity.doa.Activity_Doa_Ketika_Bangun_Tidur">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activity.campur.MainActivity" />
         </activity>
 
-        <activity android:name=".Package_Hijaiyah_Fathah.Activity_Hijaiyah_Fathah">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Fathah">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activity.campur.MainActivity" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Kasrah.Activity_Hijaiyah_Kasrah">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
-        </activity>
-        <activity android:name=".Package_Hijaiyah_Dammah.Activity_Hijaiyah_Dammah">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Kasrah">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Perkenalan.Activity_Hijaiyah">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Dammah">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Fathah.Activity_Hijaiyah_Fathah_Jelas">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Kasrah.Activity_Hijaiyah_Kasrah_Jelas">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Fathah_Jelas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Dammah.Activity_Hijaiyah_Dammah_Jelas">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Kasrah_Jelas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah_Perkenalan.Activity_Hijaiyah_Jelas">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Dammah_Jelas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Tidur">
+        <activity android:name=".activity.hijaiyah.Activity_Hijaiyah_Jelas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Kedua_Orang_Tua">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Tidur">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Belajar">
+        <activity android:name=".activity.doa.Activity_Doa_Kedua_Orang_Tua">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Setelah_Belajar">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Belajar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Masuk_Masjid">
+        <activity android:name=".activity.doa.Activity_Doa_Setelah_Belajar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Keluar_Masjid">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Masuk_Masjid">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Masuk_Kamar_Mandi">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Keluar_Masjid">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Keluar_Kamar_Mandi">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Masuk_Kamar_Mandi">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Makan">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Keluar_Kamar_Mandi">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Doa_Akan_Setelah_Makan">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Makan">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Asmaul_Husna.Activity_Asmaul_Husna">
+        <activity android:name=".activity.doa.Activity_Doa_Akan_Setelah_Makan">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Activity_Menu_Utama_Doa" />
-        <activity android:name=".Package_Hijaiyah.Activity_Menu_Utama_Harakat">
+        <activity android:name=".activity.campur.Activity_Asmaul_Husna">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Tuntunan_Sholat.Activity_Tuntunan_Sholat" />
+        <activity android:name=".activity.doa.Activity_Menu_Utama_Doa" />
+        <activity android:name=".activity.hijaiyah.Activity_Menu_Utama_Harakat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
+        </activity>
+        <activity android:name=".activity.tuntunansholat.Activity_Tuntunan_Sholat" />
         <activity
-            android:name=".Package_Shalawat_Nabi.Activity_Shalawat_Nabi"
+            android:name=".activity.campur.Activity_Shalawat_Nabi"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Team.Activity_Team"
+            android:name=".activity.team.Activity_Team"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_About.Activity_About"
+            android:name=".activity.campur.Activity_About"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Tadjwid.Activity_Tadjwid_Iqlab">
+        <activity android:name=".activity.tadjwid.Activity_Tadjwid_Iqlab">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kuis.Activity_Kuis">
+        <activity android:name=".activity.campur.Activity_Kuis">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Kumpulan_Doa.Fragment_Doa"
+            android:name=".fragment.Fragment_Doa"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Kumpulan_Doa.Fragment_Doa_Akan_Belajar" />
-        <activity android:name=".Package_Kumpulan_Doa.Fragment_Doa_Keluar_WC" />
-        <activity android:name=".Package_Perintah_Sholat.Activity_Perintah_Sholat">
+        <activity android:name=".fragment.Fragment_Doa_Akan_Belajar" />
+        <activity android:name=".fragment.Fragment_Doa_Keluar_WC" />
+        <activity android:name=".activity.sholat.Activity_Perintah_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Pendek">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Pendek">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_An_Naas">
+        <activity android:name=".activity.suratpendek.Activity_Surat_An_Naas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Falak">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Falak">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Ikhlas">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Ikhlas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Lahab">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Lahab">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_An_Nasr">
+        <activity android:name=".activity.suratpendek.Activity_Surat_An_Nasr">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Kaafirun">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Kaafirun">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Kautsar">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Kautsar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Mauun">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Mauun">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Quraisy">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Quraisy">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Surat_Pendek.Activity_Surat_Al_Humazah">
+        <activity android:name=".activity.suratpendek.Activity_Surat_Al_Humazah">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Berwudhu.Activity_Berwudhu"
+            android:name=".activity.wudhu.Activity_Berwudhu"
             android:theme="@style/MyMaterialTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat_Fardlu.Activity_Pilihan_Sholat_Fardlu">
+        <activity android:name=".activity.sholat.Activity_Pilihan_Sholat_Fardlu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Sholat_Isya"
-            android:theme="@style/MyMaterialTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
-        </activity>
-        <activity
-            android:name=".Package_Sholat.Activity_Sholat_Dzuhur"
+            android:name=".activity.sholat.Activity_Sholat_Isya"
             android:theme="@style/MyMaterialTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Sholat_Ashar"
+            android:name=".activity.sholat.Activity_Sholat_Dzuhur"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
+        </activity>
+        <activity
+            android:name=".activity.sholat.Activity_Sholat_Ashar"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Sholat_Maghrib"
+            android:name=".activity.sholat.Activity_Sholat_Maghrib"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Sholat_Shubuh"
+            android:name=".activity.sholat.Activity_Sholat_Shubuh"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Wudhu.Activity_Syarat_Wudhu">
+        <activity android:name=".activity.wudhu.Activity_Syarat_Wudhu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Wudhu.Activity_Utama_Wudhu">
+        <activity android:name=".activity.wudhu.Activity_Utama_Wudhu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Wudhu.Activity_Rukun_Wudhu">
+        <activity android:name=".activity.wudhu.Activity_Rukun_Wudhu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Wudhu.Activity_Sunnat_Wudhu">
+        <activity android:name=".activity.wudhu.Activity_Sunnat_Wudhu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Wudhu.Activity_Membatalkan_Wudhu">
+        <activity android:name=".activity.wudhu.Activity_Membatalkan_Wudhu">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Utama_Sholat">
+        <activity android:name=".activity.sholat.Activity_Utama_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Jumlah_Sholat">
+        <activity android:name=".activity.sholat.Activity_Jumlah_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Syarat_Sholat">
+        <activity android:name=".activity.sholat.Activity_Syarat_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Rukun_Sholat">
+        <activity android:name=".activity.sholat.Activity_Rukun_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Membatalkan_Sholat">
+        <activity android:name=".activity.sholat.Activity_Membatalkan_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
@@ -342,66 +342,66 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Sholat.Activity_Tata_Cara_Sholat">
+        <activity android:name=".activity.sholat.Activity_Tata_Cara_Sholat">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Niat_Sholat"
+            android:name=".activity.sholat.Activity_Niat_Sholat"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
         <activity
-            android:name=".Package_Sholat.Activity_Gerakan_Sholat"
+            android:name=".activity.sholat.Activity_Gerakan_Sholat"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Hijaiyah.Activity_Menu_Utama_Tanwin">
+        <activity android:name=".activity.hijaiyah.Activity_Menu_Utama_Tanwin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Tanwin.Activity_Tanwin_Fatkhatain">
+        <activity android:name=".activity.tanwin.Activity_Tanwin_Fatkhatain">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Tanwin.Activity_Tanwin_Kasrohtain">
+        <activity android:name=".activity.tanwin.Activity_Tanwin_Kasrohtain">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Tanwin.Activity_Tanwin_Dummatain">
+        <activity android:name=".activity.tanwin.Activity_Tanwin_Dummatain">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Paint.Activity_Paint">
+        <activity android:name=".activity.campur.Activity_Paint">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Utama_Tajwid.Activity_Utama_Tajwid">
+        <activity android:name=".activity.tadjwid.Activity_Utama_Tajwid">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Mengeja.Activity_Utama_Mengeja">
+        <activity android:name=".activity.hijaiyah.Activity_Utama_Mengeja">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Mengeja.Activity_Mengeja_1">
+        <activity android:name=".activity.campur.Activity_Mengeja_1">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Package_Hijaiyah_Perkenalan.Activity_Huruf_Hijaiyah" />
         </activity>
-        <activity android:name=".Package_Alquran.Activity_Alquran"></activity>
+        <activity android:name=".activity.campur.Activity_Alquran"></activity>
     </application>
 
 </manifest>
